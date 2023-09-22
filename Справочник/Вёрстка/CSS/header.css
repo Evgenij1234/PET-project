@@ -1,0 +1,22 @@
+.body {
+    display: grid;
+    background-color:azure;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: rgb(50, 82, 2);
+    height: 75px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.header_div {
+    padding: 10px;
+    text-align: center;
+}
+.header_div_a {
+    text-decoration: none;
+    color: azure;
+}
+

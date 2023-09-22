@@ -1,0 +1,105 @@
+.main_About {
+    display: grid;
+}
+.About_box-img {
+    height: 250px; 
+    margin-top: 25px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.About-img{
+    background-size: 100% auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.main_About {
+    font-size: 14pt;
+    padding: 20px;
+}
+.About_name {
+    font-size: 19pt;
+    font-weight: bold;
+    padding: 10px;
+}
+.About_text {
+}
+/*конец О парке*/
+/*Начало животные*/
+.main_Animals {
+    padding: 50px;
+}
+.Animals_top {
+    margin: 25px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.Animals_content {
+}
+.Animals_content-box {
+}
+.content-img-box {
+}
+.content-img {
+    height: 350px;
+}
+.content-name {
+    padding-top: 20px;
+    font-size: 15pt;
+    padding-bottom: 20px;
+}
+.content-description {
+}
+/*Конец животные*/
+/*Начало галерея*/
+
+.main_Gallery {
+    padding: 50px;
+    display: grid;
+}
+.Gallery_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 600px);
+}
+.Gallery_content-box-img {
+    padding: 25px;
+}
+.Gallery_content-img {
+}
+/*Конец галерея*/
+/*Начало осторожно*/
+.main_Precautions {
+    padding: 50px;
+    display: grid;
+}
+.Precautions_content {
+
+}
+/*Конец осторожно*/
+/*Начало скалы*/
+.main_Routes {
+    padding: 50px;
+    display: grid;
+}
+.Routes_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+}
+.Routes_content-box {
+    padding: 25px;
+    text-align: center;
+}
+.Routes_content_name {
+    padding: 10px;
+    font-size: 15pt;
+    font-weight: bolder;
+    font-style: italic;
+}
+.Routes_content_img {
+   
+}
+.Routes_content_description {
+    font-size: 12pt;
+}
+/*Конец скалы*/
